@@ -14,7 +14,6 @@ namespace TestProject.Pom
     {
         public IWebDriver driver;
 
-        [Obsolete]
         public Pom(IWebDriver driver)
         {
             this.driver = driver;
